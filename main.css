@@ -3,21 +3,21 @@
 @font-face
 {
   font-family: lausanne;
-  src:url(font/lausanne.otf)
+  src:url(lausanne.otf)
 }
 
 
 @font-face
 {
   font-family: boldd;
-  src:url(font/boldd.otf)
+  src:url(boldd.otf)
 }
 
 
 @font-face
 {
   font-family: ital;
-  src:url(font/ital.otf)
+  src:url(ital.otf)
 }
 
 
@@ -25,7 +25,7 @@
 @font-face
 {
   font-family: regu;
-  src:url(font/regu.otf)
+  src:url(regu.otf)
 }
 
 

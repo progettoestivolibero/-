@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>ProgettoEstivoLibero</title>
+  <meta charset = "UTF-8" />
+   <link rel="stylesheet" href="main.css">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+  <link rel="icon" type="image/png"
+  href="asset/favicon.png">
+
+
+  <div id="marquee-background-lettering" class="show">
+  <img class="background-lettering" src="asset/logo.png">
+  <img class="background-lettering2" src="asset/logo.png">
+</div>
+
+
+<div class="wrapper">
+<section class="columns">
+
+	<div class="column one">
+
+		<p><span id="first">Progètto</span> <span id="second">s.m.</span> [pro-gèt-to] <br>
+    (1) Ideazione, piano, proposta per l’esecuzione di un lavoro o di una serie di lavori.<br>
+    (2) È un’attività razionale che riconosce i principi dell’essere e del conoscere. Un processo che non viene imposto dall’alto, bensì è proprio del designer.<br></p>
+	</div>
+
+	<div class="column two">
+
+		<p><span id="first">Estivo</span> <span id="second"> agg.</span> [e-sti-vo]<br>
+    (1) Che avviene o si fa d’estate: vacanze e., villeggiatura.<br>
+    (2) Attività continua, che non coinvolge solamente l’anno accademico poiché il design non è mestiere ma essere.<br></p>
+	</div>
+
+  <div class="column three">
+
+		<p>   <span id="first">Lìbero</span><span id="second"> agg.</span> [lì-be-ro]<br>
+    (1) Che ha facoltà di agire a suo arbitrio, senza subire una coazione esterna limitante.<br>
+    (2) Che ha il diritto di esprimere il proprio pensiero e di far sentire la propria voce secondo un’ottica critica della realtà.<br></p>
+	</div>
+
+</section>
+
+</div>
+
+
+
+
+<div id= "text" class= ".foreground-spacer">
+  PEL è una presa di coscienza.<br>
+ <div id="indent">Coscienza della responsabilità del progettista e dell’urgenza di un sistema formativo che educhi gli studenti a diventare consapevoli e indipendenti.
+  <div id="indent">L’istruzione di un designer deve stimolarlo a rompere lo stato di superficialità in favore di realtà più complesse.
+L’università ideale è un sistema fondato su passione, rispetto e tolleranza. Un ambiente che ispiri gli studenti a chiedere e chiedersi come il design possa modellare la crescita culturale, economica e sociale nel contesto globale.
+  <div id="indent">Questa Scuola del Design, invece, è satura di accademici che usano l’insegnamento per procrastinare un esame delle proprie carenze.
+  Il risultato è un sistema viziato in cui un progetto vendibile viene barattato per un voto alto. Un successo temporaneo e inutile.</div></div>
+</div><br>
+  PEL è uno strumento.<br>
+  <div id="indent">Strumento per prendere una posizione e per rivendicare trasparenza.
+Noi studenti non siamo utenti passivi, abbiamo una voce che deve essere ascoltata.
+  Vogliamo costruire un luogo in cui si incoraggi l’innovazione attraverso la collaborazione e lo sviluppo di un pensiero critico, rispetto al ruolo in continua evoluzione del progettista.</div>
+  <div id="indent">Ancor di più, vogliamo una Scuola del Design che educhi a disturbare.</div>
+  <br>
+  PEL è un progetto estivo libero.</div>
+
+
+<div class="containerbutton">
+<div id="button--pel" class="la">PEL</div>
+</div>
+
+<div id="marquee">
+ “L’ipotetica scuola del futuro, una scuola genuinamente rinnovata, è forse soltanto un miraggio, come quello di una società libera e pronta ad accettare tutte le sue contraddizioni interne: ma malgrado ciò, la libertà deve continuare ad essere la sola forma di tirannia possibile.”
+</div>
+
+
+
+<div class="mega">
+<div class="about"><span id="first"class="indent">Progètto</span> <span id=second>s.m.</span> [pro-gèt-to]<br>
+(1) Ideazione, piano, proposta per l’esecuzione di un lavoro o di una serie di lavori.<br>
+(2) È un’attività razionale che riconosce i principi dell’essere e del conoscere. Un processo che non viene imposto dall’alto, bensì è proprio del designer.<br><br>
+<span id="first" class="indent">Estivo</span>  <span id=second>agg.</span> [e-sti-vo]<br>
+(1) Che avviene o si fa d’estate: vacanze e., villeggiatura.<br>
+(2) Attività continua, che non coinvolge solamente l’anno accademico poiché il design non è mestiere ma essere.<br><br>
+<span id="first" class="indent">Lìbero</span> <span id=second>agg.</span> [lì-be-ro]<br>
+(1) Che ha facoltà di agire a suo arbitrio, senza subire una coazione esterna limitante.<br>
+(2) Che ha il diritto di esprimere il proprio pensiero e di far sentire la propria voce secondo un’ottica critica della realtà.<br><br><br><br><br>
+<div class="third">“L’ipotetica scuola del futuro, una scuola genuinamente rinnovata, è forse soltanto un miraggio, come quello di una società libera e pronta ad accettare tutte le sue contraddizioni interne: ma malgrado ciò, la libertà deve continuare ad essere la sola forma di tirannia possibile.”
+</div>
+</div>
+</div>
+
+
+
+<script>
+
+
+var OSName="Unknown OS";
+
+function dev() {
+  if (navigator.appVersion.indexOf("Win")!=-1){
+  console.log('Your OS is: '+OSName);
+  OSName="Windows";
+  win();
+}
+else if (navigator.appVersion.indexOf("Mac")!=-1) {
+  OSName="Mac";
+  console.log('Your OS is: '+OSName);
+  mac();
+} else if (navigator.appVersion.indexOf("Linux")!=-1) {
+  OSName="Linux";
+  console.log('Your OS is: '+OSName);
+  mac();
+}
+
+
+}
+
+
+
+dev();
+
+window.onload = function(){
+  $("#button--pel").click(function() {
+  $(".mega").toggle();
+  $(".wrapper").toggle();
+  })
+}
+
+
+
+function mac() {
+
+$('#button--pel').click(function() {
+if($(this).hasClass('la'))
+{
+  $(this).addClass('lau').removeClass('la');
+  $("#marquee").css({ opacity: 1 });
+  setTimeout(load(), 10000);
+}
+else
+{
+ $(this).addClass('la').removeClass('lau');
+$("#marquee").css({ opacity: 0 });
+}
+});
+}
+
+
+
+function win() {
+
+$('#button--pel').click(function() {
+if($(this).hasClass('la'))
+{
+  $(this).addClass('lauforwin').removeClass('la');
+  $("#marquee").css({ opacity: 1 });
+  setTimeout(load(), 10000);
+}
+else
+{
+ $(this).addClass('la').removeClass('lauforwin');
+$("#marquee").css({ opacity: 0 });
+}
+});
+}
+
+
+
+
+
+
+$('.containerbutton').click(function() {
+if($("#marquee-background-lettering").hasClass('show'))
+{
+    $("#marquee-background-lettering").addClass('hide').removeClass('show');
+    $("#text").addClass('hide').removeClass('show');
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0; //
+
+
+
+}
+else
+{
+ $("#marquee-background-lettering").addClass('show').removeClass('hide');
+ $("#text").addClass('show').removeClass('hide');
+ document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0; //
+
+}
+});
+
+
+
+
+var load = (function() {
+    var executed = false;
+    return function() {
+        if (!executed) {
+            executed = true;
+            function go() {
+          		i = i < width ? i + step : 1;
+          		m.style.marginLeft = -i + 'px';
+          	}
+          	var i = 0,
+          	step = 3,
+          	space = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+          	var m = document.getElementById('marquee');
+          	var t = m.innerHTML; //text
+          	m.innerHTML = t + space;
+          	m.style.position = 'absolute';
+          	var width = (m.clientWidth + 1);
+          	m.style.position = '';
+          	m.innerHTML = t + space + t + space + t + space + t + space + t + space + t + space + t + space;
+          	var x = setInterval(go, 26);
+        }
+    };
+})();
+
+
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</head>
+</html>

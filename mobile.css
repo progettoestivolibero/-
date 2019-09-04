@@ -1,0 +1,172 @@
+@font-face
+{
+  font-family: lausanne;
+  src:url(font/lausanne.otf)
+}
+
+
+@font-face
+{
+  font-family: boldd;
+  src:url(font/boldd.otf)
+}
+
+
+@font-face
+{
+  font-family: ital;
+  src:url(font/ital.otf)
+}
+
+
+
+@font-face
+{
+  font-family: regu;
+  src:url(font/regu.otf)
+}
+
+#anchor
+{
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+}
+
+#indent {
+  text-indent: 7.1vw;
+}
+
+
+html, body {
+  position:fixed;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  background:#fff;
+  font-family: lausanne;
+  font-size:6vw;
+  line-height: 1.25;
+  overflow-y:auto;
+  height:100vh;
+  width:100vw;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor: crosshair;
+}
+
+
+
+#text {
+  z-index:100;
+  position:relative;
+  mix-blend-mode:difference;
+  padding: 25px 12.5px 175px 12.5px;
+  font-family: lausanne;
+    color:#fff;
+  }
+
+
+#marquee-background-logo{z-index:50;position:fixed;top:0;left:0;display:block;overflow:hidden;pointer-events:none;mix-blend-mode:difference;
+  width:200vw;-webkit-animation:marquee-like 5s linear 1s infinite;animation:marquee-like 5s linear 1s infinite}
+  .background-logo{width:80vw;padding:4vw 10vw;text-align:center;float:left;fill:#fff}
+  .background-logo2{width:80vw;padding:4vw 10vw;text-align:center;float:left;fill:#fff}
+  @-webkit-keyframes marquee-like{0%{transform:translateX(0)}to{transform:translateX(-100vw)}}
+  @keyframes marquee-like{0%{transform:translateX(0)}to{transform:translateX(-100vw)}}
+
+
+.mega {
+display: none;
+    }
+
+    .mega {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgb(255,255,255);
+    }
+
+    .about {
+      font-family: regu;
+      font-size: 5vw;
+      background-color: rgb(255, 255, 255);
+      cursor: crosshair;
+      display: block;
+      padding-left: 12.5px;
+      padding-right: 12.5px;
+      padding-top: 25px;
+      padding-bottom: 175px;
+    }
+
+
+    #first {
+      font-family: boldd;
+    }
+
+    #second {
+      font-family: ital;
+    }
+
+    .third {
+      text-align: center;
+      font-family: ital;
+    }
+
+
+
+    .containerbutton {
+      border-radius: 30px;
+      height: 35px;
+      width: 75px;
+      text-align: center;
+      background-color: rgb(250, 250, 250);
+      display: inline-block;
+      box-shadow: 0 0 10px #000000;
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      margin-right: 12.5px;
+      margin-bottom: 25px;
+      cursor: crosshair;
+      z-index: 120;
+    }
+
+
+        #button--pel {
+        user-select: none;
+        z-index: 120;
+        }
+
+        .la {
+          font-family: ital;
+          font-size: 21px;
+          user-select: none;
+          line-height: 35px;
+          vertical-align: center;
+          text-align: center;
+
+        }
+
+        .lau {
+          font-size: 20.2px;
+          line-height: 35px;
+          font-family: lausanne;
+          user-select: none;
+          vertical-align: center;
+          margin-top: 2px;
+        }
+
+
+    .show {
+      display: block;
+    }
+
+    .hide {
+      display: none;
+    }

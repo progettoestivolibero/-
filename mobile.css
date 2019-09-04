@@ -113,8 +113,8 @@ display: none;
 
     .containerbutton {
       border-radius: 30px;
-      height: 45px;
-      width: 85px;
+      height: 35px;
+      width: 75px;
       text-align: center;
       background-color: rgb(250, 250, 250);
       display: inline-block;
@@ -136,17 +136,17 @@ display: none;
 
         .la {
           font-family: ital;
-          font-size: 31px;
+          font-size: 21px;
           user-select: none;
-          line-height: 45px;
+          line-height: 35px;
           vertical-align: center;
           text-align: center;
 
         }
 
         .lau {
-          font-size: 30.2px;
-          line-height: 45px;
+          font-size: 20.2px;
+          line-height: 35px;
           font-family: lausanne;
           user-select: none;
           vertical-align: center;

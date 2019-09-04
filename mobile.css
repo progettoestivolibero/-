@@ -26,15 +26,6 @@
   src:url(regu.otf)
 }
 
-#anchor
-{
-  position: absolute;
-  z-index: -2;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-}
 
 #indent {
   text-indent: 7.1vw;
@@ -122,8 +113,8 @@ display: none;
 
     .containerbutton {
       border-radius: 30px;
-      height: 35px;
-      width: 75px;
+      height: 45px;
+      width: 85px;
       text-align: center;
       background-color: rgb(250, 250, 250);
       display: inline-block;
@@ -145,17 +136,17 @@ display: none;
 
         .la {
           font-family: ital;
-          font-size: 21px;
+          font-size: 31px;
           user-select: none;
-          line-height: 35px;
+          line-height: 45px;
           vertical-align: center;
           text-align: center;
 
         }
 
         .lau {
-          font-size: 20.2px;
-          line-height: 35px;
+          font-size: 30.2px;
+          line-height: 45px;
           font-family: lausanne;
           user-select: none;
           vertical-align: center;
